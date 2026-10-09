@@ -1,6 +1,5 @@
 # ESPHome-Davis-Vantage-Pro2-Vue-Receiver-using-ESP32-S3-Zero-CC1101
 基于微雪ESP32-S3-Zero和 亿百特E07-900M10s模块（CC1101）的Davis Vantage Pro2 / Vue 接收器
-# ESPHome Davis Vantage Pro2 / Vue Receiver using ESP32-S3-Zero + CC1101
 
 Receive a **Davis Vantage Pro2 / Vantage Vue EU 868 MHz** outdoor transmitter directly with an **ESP32-S3-Zero + CC1101**, decode the weather packets in ESPHome, and publish the measurements to Home Assistant.
 
