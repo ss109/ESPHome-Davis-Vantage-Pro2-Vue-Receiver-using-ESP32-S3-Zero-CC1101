@@ -5,7 +5,7 @@ pcb底板文件来源于https://github.com/tomkooij/e07-900m10s-esp32s3zero。
 
 esphome的配置文件主要来源于https://github.com/sylvilaurelin/Davis_Vantage_p2plus_EspHome   我的雨量筒规格是美制0.01英寸，我对其中的rain rate计算方式，进行了修改。原作的太阳辐射是直接输出了报告值，我添加了太阳辐射（solar_radiation）的系数，使值与davis控制台一致。
 
-直接接收 Davis Vantage Pro2 / Vantage Vue EU 868 MHz 户外发射器，使用 ESPHome+ESP32-S3-Zero + CC1101，解码天气数据包，并将测量数据发布到 Home Assistant。
+不再需要Davis console ，直接接收 Davis Vantage Pro2 / Vantage Vue EU 868 MHz 户外发射器，使用 ESPHome+ESP32-S3-Zero + CC1101，解码天气数据包，并将测量数据发布到 Home Assistant。
 <img width="406" height="554" alt="image" src="https://github.com/user-attachments/assets/824fab26-cd01-4f75-8fc6-84c7f8d16423" />
 
 
