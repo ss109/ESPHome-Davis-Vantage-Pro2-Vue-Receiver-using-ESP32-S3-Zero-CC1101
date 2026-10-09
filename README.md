@@ -9,9 +9,9 @@ esphome的配置文件主要来源于https://github.com/sylvilaurelin/Davis_Vant
 <img width="406" height="554" alt="image" src="https://github.com/user-attachments/assets/824fab26-cd01-4f75-8fc6-84c7f8d16423" />
 
 
-This configuration follows the Davis 868 MHz frequency-hopping sequence in real time. After locking onto a valid Davis packet, the ESP32-S3 retunes the CC1101 to the frequency expected for the next transmission.
+该配置实时遵循戴维斯868 MHz的跳频序列。锁定有效Davis数据包后，ESP32-S3将CC1101重新调谐到下一次传输预期的频率。
 
-> **Important:** This configuration is for the **European 868 MHz Davis system**. It is not a drop-in configuration for US 915 MHz or other regional versions.
+> **重要提示:** 该配置适用于欧洲868 MHz Davis系统。它不是美国915 MHz或其他地区版本的直接插入配置。
 
 ---
 
