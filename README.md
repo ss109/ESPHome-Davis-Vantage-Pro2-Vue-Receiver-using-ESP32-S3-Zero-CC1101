@@ -5,9 +5,9 @@ pcb底板文件来源于https://github.com/tomkooij/e07-900m10s-esp32s3zero。
 
 esphome的配置文件主要来源于https://github.com/sylvilaurelin/Davis_Vantage_p2plus_EspHome/tree/main，我对其中的rain rate计算，针对我的雨量筒规格进行了修改。更正了太阳辐射（solar_radiation）的系数错误。
 
-Receive a **Davis Vantage Pro2 / Vantage Vue EU 868 MHz** outdoor transmitter directly with an **ESP32-S3-Zero + CC1101**, decode the weather packets in ESPHome, and publish the measurements to Home Assistant.
+直接接收 Davis Vantage Pro2 / Vantage Vue EU 868 MHz 户外发射器，使用 ESPHome+ESP32-S3-Zero + CC1101，解码天气数据包，并将测量数据发布到 Home Assistant。
+<img width="406" height="554" alt="image" src="https://github.com/user-attachments/assets/824fab26-cd01-4f75-8fc6-84c7f8d16423" />
 
-No Davis console is required.
 
 This configuration follows the Davis 868 MHz frequency-hopping sequence in real time. After locking onto a valid Davis packet, the ESP32-S3 retunes the CC1101 to the frequency expected for the next transmission.
 
