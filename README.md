@@ -1,5 +1,7 @@
 # ESPHome-Davis-Vantage-Pro2-Vue-Receiver-using-ESP32-S3-Zero-CC1101
 基于微雪ESP32-S3-Zero和 亿百特E07-900M10s模块（CC1101）的Davis Vantage Pro2 / Vue 接收器
+# pcb底板文件来源于https://github.com/tomkooij/e07-900m10s-esp32s3zero。
+# esphome的配置文件主要来源于https://github.com/sylvilaurelin/Davis_Vantage_p2plus_EspHome/tree/main，我对其中的rain rate计算，针对我的雨量筒规格进行了修改。更正了太阳辐射（solar_radiation）的系数错误。
 
 Receive a **Davis Vantage Pro2 / Vantage Vue EU 868 MHz** outdoor transmitter directly with an **ESP32-S3-Zero + CC1101**, decode the weather packets in ESPHome, and publish the measurements to Home Assistant.
 
