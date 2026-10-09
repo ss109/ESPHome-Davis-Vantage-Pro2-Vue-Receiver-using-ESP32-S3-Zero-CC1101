@@ -71,6 +71,7 @@ Actual performance will depend on antenna, CC1101 module quality, wiring, interf
 - 868 MHz antenna
 - 3.3 V power for the CC1101
 - Jumper wires or a PCB
+<img width="520" height="431" alt="image" src="https://github.com/user-attachments/assets/1a27c2b1-ce33-4825-9a50-26d04f5eaead" />
 
 A CC1101 module designed for 868/915 MHz operation is recommended.
 
